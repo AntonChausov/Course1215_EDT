@@ -46,10 +46,6 @@
 	
 КонецФункции
 
-// Файл: Store/src/AccumulationRegisters/Товары/ManagerModule.bsl
-Сообщить(НСтр("ru='Привет, мир!'; en='Hello, world!'; zh='你好，世界！'; ar='مرحبا بالعالم!'"));
-
-
 #КонецОбласти
 
 #КонецЕсли
