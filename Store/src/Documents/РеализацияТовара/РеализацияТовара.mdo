@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4ac9d44-6c26-4591-89e2-db57019c17a1">
+  <producedTypes>
+    <objectType typeId="09be8c94-8a53-40c7-8759-9caf13c510a8" valueTypeId="cb2e2e08-c3a1-48c6-93e8-103a8400c789"/>
+    <refType typeId="9e3b14e3-e8a7-4579-9bd2-a45dcb21d52b" valueTypeId="29ec8b07-bfc7-4923-acc8-0e400773b54f"/>
+    <selectionType typeId="3cbac74b-2d43-4a6f-96c9-e30d673a9a5d" valueTypeId="2181a60c-6e01-4b74-a651-15be71059cca"/>
+    <listType typeId="e5be5405-47df-4764-a650-0f47d9b66a3d" valueTypeId="3116eee9-1f15-497f-aef2-094a2936d80f"/>
+    <managerType typeId="48213f60-86ce-4af7-97d5-d16e56ea7ba6" valueTypeId="ebf61387-8d3d-4273-bed3-231adcf5407c"/>
+  </producedTypes>
+  <name>РеализацияТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Реализации товаров</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b89b75b6-7226-44c4-835d-2892fd30ccb4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
