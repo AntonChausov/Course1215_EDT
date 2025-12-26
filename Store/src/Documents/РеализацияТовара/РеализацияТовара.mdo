@@ -47,4 +47,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="fe76ba59-3475-4d94-92d0-bb70fc81dd5d">
+    <name>РеквизитОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит от поставщика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Справочник1</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
