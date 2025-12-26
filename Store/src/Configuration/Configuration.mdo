@@ -39,11 +39,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.Справочник1</catalogs>
-  <catalogs>Catalog.Справочник2</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.Справочник1</catalogs>
+  <catalogs>Catalog.Справочник2</catalogs>
   <documents>Document.Документ1</documents>
   <documents>Document.Документ2</documents>
   <documents>Document.ПоступлениеТоваров</documents>
